@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 
+
 // describe('render test',() => {
 //   it('renders without crashing', () => {
 //     const div = document.createElement('div');
-//     ReactDOM.render(<App/>, div);
+//     ReactDOM.render(App, div);
 //     ReactDOM.unmountComponentAtNode(div);
 //   });
-// }
+// });
+
+
+describe('render test',() => {
+  it('renders without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(App, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+});
