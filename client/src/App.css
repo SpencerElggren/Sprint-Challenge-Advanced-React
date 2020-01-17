@@ -31,3 +31,21 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  border: black solid 2px;
+  margin: 2rem;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #1F2022;
+  border: none;
+}
